@@ -1,25 +1,23 @@
-<h1>cybersecurity-incident-response-automation
+<h1>Security Event Monitoring with Elastic Stack (ELK) on Kali Linux 
 
  ### [YouTube Demonstration](https://youtu.be/7eJexJVCqJo)
 
 <h2>Description</h2>
-Automated detection of security incidents using PowerShell and Python scripts. Includes real-time monitoring, alerting, and incident response capabilities. 
+This project demonstrates how to set up and use the Elastic Stack (Elasticsearch, Logstash, and Kibana) in Kali Linux to monitor and analyze system logs for suspicious activities. It simulates real world incident response by detecting and visualizing failed login attempts and unauthorized access.
 <br />
 
-
-**Overview**
-This project automates the detection of security incidents using a combination of PowerShell and Python scripts. 
-
-**Features**
--Real-time log analysis and incident detection.
--Automated alert generation and escalation.
--Integration with SIEM tools for enhanced monitoring.
--Scalable and customizable for various environments. 
+**Key Features**
+-Collect logs from a target system using Filebeat.
+-Ingest logs into Elasticsearch via Logstash.
+-Visualize security events in Kibana dashboards.
+-Analyze and detect incidents such as failed logins and brute-force attacks. 
 
 <h2>Languages and Utilities Used</h2>
 
-- <b>PowerShell</b> 
-- <b>Python</b>
+- <b>Kali Linux</b> 
+- <b>Elastic Stack (Elasticsearch, Logstash, Kibana)</b>
+- <b>Filebeat</b>
+- <b>Syslog for log generation</b> 
 
 <h2>Environments Used </h2>
 
